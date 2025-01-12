@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.delivery-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.delivery-header {
+  flex: 1;
+  max-width: 50%;
+  position: relative;
+}
+
+.delivery-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-right: 1px solid #ddd;
+}
+
+.free-gift {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff69b4;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.delivery-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.delivery-content h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+.delivery-content p {
+  margin: 10px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.delivery-info {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.delivery-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn-details {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+.btn-details:hover {
+  background-color: #218838;
+}
+
+.btn-edit {
+  background-color: white;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.btn-edit:hover {
+  border-color: #aaa;
+}
+
+.error-message {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #ffebeb;
+  color: #d32f2f;
+  border: 1px solid #f5c2c2;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.error-message strong {
+  color: #b71c1c;
+}
